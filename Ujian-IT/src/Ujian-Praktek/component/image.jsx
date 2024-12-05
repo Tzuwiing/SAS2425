@@ -1,3 +1,3 @@
-export default function Image({ image }) {
-    return <img src={image} alt="" />;
+export default function Image({ src, alt = "", ...props }) {
+  return <img src={src} alt={alt} {...props} />;
 }

@@ -1,4 +1,4 @@
-import { Card } from "./fragments/card";
+import Card from "./fragments/card";
 
 export default function Product() {
   return (
